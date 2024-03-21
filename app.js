@@ -27,18 +27,18 @@ for(var i = 1; i <= 15; i++){
 document.write("<br>");
 
 //Write a loop to calculate and print the factorial of a number (let's say 5).
-// document.write("print the factorial of a number" + "<br>");
+document.write("print the factorial of a number" + "<br>");
 
-// var number = +prompt("input your number");
-// var factorial = +prompt("factorial of");
+var number = +prompt("input your number");
+var factorial = +prompt("factorial of");
 
-// for(var i = 1; i<= number; i++){
-//     factorial *= i;
-// }
+for(var i = 1; i<= number; i++){
+    factorial *= i;
+}
 
-// document.write("The factorial of " + number + " is " + factorial);
+document.write("The factorial of " + number + " is " + factorial);
 
-// document.write("<br>");
+document.write("<br>");
 document.write("<br>");
 
 //Write a loop to print the multiplication table of a number (let's say 7) up to 10.
@@ -74,6 +74,14 @@ var reverseString = "";
 for(var i = string.length -1 ; i>=0 ; i--){
     reverseString += string[i];
 }
-document.write(reverseString)
+document.write(reverseString);
 
+document.write("<br>");
+document.write("<br>");
 
+// square of numbers from 1 to 10.
+document.write("square of numbers from 1 to 10" + "<br>");
+
+for(var i = 1; i <= 10; i++){
+    document.write("squae of " + i + " is " + (i * i) + "<br>")  ;  
+}
